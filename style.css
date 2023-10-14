@@ -169,3 +169,20 @@ img{
 .footer{
     min-height: 300px;
 }
+
+@media screen and (max-width: 600px) {
+
+  .topnav a {
+    display: block;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+  .topnav #login {
+    margin: 24px 0px !important;
+  }
+}
